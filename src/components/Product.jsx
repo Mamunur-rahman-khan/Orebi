@@ -6,7 +6,7 @@ import { BsArrowRepeat } from "react-icons/bs";
 import Flex from './Flex';
 import Heading from './Heading';
 
-const Product = ({ imgSrc }) => {
+const Product = ({ imgSrc, title, price, color }) => {
     return (
         <>
             <Badge bdgeName={'New'} className={'absolute top-[20px] left-[20px]'} />
@@ -26,10 +26,10 @@ const Product = ({ imgSrc }) => {
                 </Flex>
             </div>
             <Flex className={'justify-between py-3'}>
-                <Heading as={'h4'} text={'Basic Crew Neck Tee'} className={'font-dm font-bold text-xl'} />
-                <Heading as={'h5'} text={'$44.00'} className={'font-dm text-base text-menuText'} />
+                <Heading as={'h4'} text={title} className={'font-dm font-bold text-xl'} />
+                <Heading as={'h5'} text={price} className={'font-dm text-base text-menuText'} />
             </Flex>
-            <Heading as={'h5'} text={'Black'} className={'font-dm text-base text-menuText'} />
+            <Heading as={'h5'} text={color} className={'font-dm text-base text-menuText'} />
         </>
     )
 }
