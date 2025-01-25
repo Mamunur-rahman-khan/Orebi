@@ -103,23 +103,35 @@ const Home = () => {
                         <Text SHeading={'New Arrivals'} />
                     </div>
                     <Slider {...settings}>
-                        <div className="relative group px-3">
+                        <div className="w-[25%] relative group px-3">
                             <Product
+                                title={'Basic Crew Neck Tee'}
+                                price={'$44.00'}
+                                color={'Black'}
                                 imgSrc={ProdOne}
                             />
                         </div>
-                        <div className="relative group px-3">
+                        <div className="w-[25%] relative group px-3">
                             <Product
+                                title={'Basic Crew Neck Tee'}
+                                price={'$44.00'}
+                                color={'Black'}
                                 imgSrc={ProdTwo}
                             />
                         </div>
-                        <div className="relative group px-3">
+                        <div className="w-[25%] relative group px-3">
                             <Product
+                                title={'Basic Crew Neck Tee'}
+                                price={'$44.00'}
+                                color={'Black'}
                                 imgSrc={ProdThree}
                             />
                         </div>
-                        <div className="relative group px-3">
+                        <div className="w-[25%] relative group px-3">
                             <Product
+                                title={'Basic Crew Neck Tee'}
+                                price={'$44.00'}
+                                color={'Black'}
                                 imgSrc={ProdFour}
                             />
                         </div>
@@ -137,21 +149,33 @@ const Home = () => {
                     <Flex className={'gap-x-5'}>
                         <div className="w-[25%] relative group">
                             <Product
+                                title={'Basic Crew Neck Tee'}
+                                price={'$44.00'}
+                                color={'Black'}
                                 imgSrc={ProdFive}
                             />
                         </div>
                         <div className="w-[25%] relative group">
                             <Product
+                                title={'Basic Crew Neck Tee'}
+                                price={'$44.00'}
+                                color={'Black'}
                                 imgSrc={ProdSix}
                             />
                         </div>
                         <div className="w-[25%] relative group">
                             <Product
+                                title={'Basic Crew Neck Tee'}
+                                price={'$44.00'}
+                                color={'Black'}
                                 imgSrc={ProdSeven}
                             />
                         </div>
                         <div className="w-[25%] relative group">
                             <Product
+                                title={'Basic Crew Neck Tee'}
+                                price={'$44.00'}
+                                color={'Black'}
                                 imgSrc={ProdEight}
                             />
                         </div>
@@ -177,21 +201,33 @@ const Home = () => {
                     <Flex className={'gap-x-5'}>
                         <div className="w-[25%] relative group">
                             <Product
+                                title={'Basic Crew Neck Tee'}
+                                price={'$44.00'}
+                                color={'Black'}
                                 imgSrc={ProdNine}
                             />
                         </div>
                         <div className="w-[25%] relative group">
                             <Product
+                                title={'Basic Crew Neck Tee'}
+                                price={'$44.00'}
+                                color={'Black'}
                                 imgSrc={ProdTen}
                             />
                         </div>
                         <div className="w-[25%] relative group">
                             <Product
+                                title={'Basic Crew Neck Tee'}
+                                price={'$44.00'}
+                                color={'Black'}
                                 imgSrc={ProdEleven}
                             />
                         </div>
                         <div className="w-[25%] relative group">
                             <Product
+                                title={'Basic Crew Neck Tee'}
+                                price={'$44.00'}
+                                color={'Black'}
                                 imgSrc={ProdTwelve}
                             />
                         </div>

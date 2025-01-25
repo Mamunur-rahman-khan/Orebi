@@ -9,8 +9,8 @@ import Heading from './Heading';
 const Product = ({ imgSrc, title, price, color }) => {
     return (
         <>
-            <Badge bdgeName={'New'} className={'absolute top-[20px] left-[20px]'} />
             <Image imgSrc={imgSrc} className='w-full' />
+            <Badge bdgeName={'New'} className={'absolute top-[20px] left-[20px]'} />
             <div className="bg-white p-4 invisible group-hover:visible absolute bottom-[75px] left-0 w-full">
                 <Flex className={'justify-end items-center gap-x-2 mb-6 mr-4'}>
                     <p className='font-dm text-[16px] text-menuText'>Add to Wish List</p>

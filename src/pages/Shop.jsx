@@ -186,6 +186,7 @@ const Shop = () => {
                                 </div>
                             </Flex>
                         </div>
+
                         <div className={'mt-14'}>
                             <Pagination itemsPerPage={12} />
                         </div>

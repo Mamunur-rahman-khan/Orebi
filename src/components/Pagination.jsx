@@ -1,10 +1,9 @@
-import { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import ReactPaginate from 'react-paginate';
 import Product from './Product';
 import Data from '../data';
 
-import ProdOne from '../assets/product1.png'
 
 
 function Items({ currentItems }) {
@@ -14,7 +13,7 @@ function Items({ currentItems }) {
             <div className={'flex gap-x-10 gap-y-14 flex-wrap'}>
                 {currentItems &&
                     currentItems.map((item) => (
-                        <div className={'w-[294px]'}>
+                        <div className={'w-[294px] relative group'}>
                             <Product
                                 title={item.title}
                                 price={item.price}
@@ -53,15 +52,20 @@ function Pagination({ itemsPerPage }) {
     return (
         <>
             <Items currentItems={currentItems} />
-            <ReactPaginate
-                breakLabel="..."
-                nextLabel=""
-                onPageChange={handlePageClick}
-                pageRangeDisplayed={5}
-                pageCount={pageCount}
-                previousLabel=""
-                renderOnZeroPageCount={null}
-            />
+            <div className="pt-12 flex justify-between">
+                <ReactPaginate
+                    breakLabel="..."
+                    nextLabel=""
+                    onPageChange={handlePageClick}
+                    pageRangeDisplayed={4}
+                    pageCount={pageCount}
+                    previousLabel=""
+                    renderOnZeroPageCount={null}
+                    containerClassName="flex gap-x-4"
+                    pageLinkClassName="bg-white border-2 text-black p-2"
+                />
+                <p className={'font text-sm text-menuText'}>{`Products from ${itemOffset + 1} to ${endOffset < Data.length ? endOffset : Data.length} of ${Data.length}`}</p>
+            </div>
         </>
     );
 }
