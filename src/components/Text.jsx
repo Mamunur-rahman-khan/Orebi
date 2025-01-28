@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from './Heading'
 
-const Text = ({ SHeading, ShopHeading, BreadText, SProdCatHeading, ProdCatText, ShopPHeader }) => {
+const Text = ({ SHeading, ShopHeading, BreadText, SProdCatHeading, ProdCatText, ShopPHeader, CatDroptext }) => {
     return (
         <>
             <Heading as={'h3'} text={SHeading} className={'font-dm font-bold text-menuTextHov text-[39px]'} />
@@ -10,6 +10,7 @@ const Text = ({ SHeading, ShopHeading, BreadText, SProdCatHeading, ProdCatText, 
             <Heading as={'p'} text={BreadText} className={'font-dm text-menuText text-xs'} />
             <Heading as={'p'} text={ProdCatText} className={'font-dm text-menuText text-base py-5'} />
             <Heading as={'p'} text={ShopPHeader} className={'font-dm text-menuText text-base'} />
+            <Heading as={'p'} text={CatDroptext} className={'font-dm text-sm'} />
         </>
     )
 }

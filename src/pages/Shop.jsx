@@ -172,7 +172,7 @@ const Shop = () => {
                                     </Flex>
                                 </div>
                                 <div className={'ml-[440px]'}>
-                                    <Flex className={'items-center gap-x-2'}>
+                                    <Flex className={'items-center gap-x-[7px]'}>
                                         <Text ShopPHeader={'Sort by:'} />
                                         <select name="product" id="product" className={'font-dm border text-base text-menuText px-10'}>
                                             <option value="featured">Featured</option>
