@@ -63,37 +63,37 @@ const Category = () => {
                                 </div>
                                 <div className={`absolute dropdown-menu ${open ? 'active' : 'inactive'}`}>
                                     <ul className={'bg-menuTextHov px-5 py-4 cursor-pointer'}>
-                                        <li className={'text-[#ffffffa4] hover:text-white hover:font-bold border-b-2 border-[#2D2D2D]'}>
+                                        <li className={'text-[#ffffffa4] hover:text-white hover:font-bold border-b-2 border-[#2D2D2D] py-3'}>
                                             <Flex className={'items-center'}>
                                                 <Text CatDroptext={'Accesories'} />
                                                 <MdKeyboardArrowRight className={'ml-28'} />
                                             </Flex>
                                         </li>
-                                        <li className={'text-[#ffffffa4] hover:text-white hover:font-bold border-b-2 border-[#2D2D2D]'}>
+                                        <li className={'text-[#ffffffa4] hover:text-white hover:font-bold border-b-2 border-[#2D2D2D] py-3'}>
                                             <Flex className={'items-center'}>
                                                 <Text CatDroptext={'Furniture'} />
                                                 <MdKeyboardArrowRight className={'ml-auto'} />
                                             </Flex>
                                         </li>
-                                        <li className={'text-[#ffffffa4] hover:text-white hover:font-bold border-b-2 border-[#2D2D2D]'}>
+                                        <li className={'text-[#ffffffa4] hover:text-white hover:font-bold border-b-2 border-[#2D2D2D] py-3'}>
                                             <Flex className={'items-center'}>
                                                 <Text CatDroptext={'Electronics'} />
                                                 <MdKeyboardArrowRight className={'ml-auto'} />
                                             </Flex>
                                         </li>
-                                        <li className={'text-[#ffffffa4] hover:text-white hover:font-bold border-b-2 border-[#2D2D2D]'}>
+                                        <li className={'text-[#ffffffa4] hover:text-white hover:font-bold border-b-2 border-[#2D2D2D] py-3'}>
                                             <Flex className={'items-center'}>
                                                 <Text CatDroptext={'Clothes'} />
                                                 <MdKeyboardArrowRight className={'ml-auto'} />
                                             </Flex>
                                         </li>
-                                        <li className={'text-[#ffffffa4] hover:text-white hover:font-bold border-b-2 border-[#2D2D2D]'}>
+                                        <li className={'text-[#ffffffa4] hover:text-white hover:font-bold border-b-2 border-[#2D2D2D] py-3'}>
                                             <Flex className={'items-center'}>
                                                 <Text CatDroptext={'Bags'} />
                                                 <MdKeyboardArrowRight className={'ml-auto'} />
                                             </Flex>
                                         </li>
-                                        <li className={'text-[#ffffffa4] hover:text-white hover:font-bold border-b-2 border-[#2D2D2D]'}>
+                                        <li className={'text-[#ffffffa4] hover:text-white hover:font-bold border-b-2 border-[#2D2D2D] py-3'}>
                                             <Flex className={'items-center'}>
                                                 <Text CatDroptext={'Home appliances'} />
                                                 <MdKeyboardArrowRight className={'ml-auto'} />
@@ -118,14 +118,12 @@ const Category = () => {
                                     </div>
                                     <div className={`absolute acc-menu ${accopen ? 'active' : 'inactive'}`}>
                                         <ul className={'border cursor-pointer'}>
-                                            {/* <li className={'px-5 py-1 bg-white text-menuTextHov hover:bg-black hover:text-white'}>
+                                            <li className={'px-5 py-2 bg-white text-menuTextHov hover:bg-black hover:text-white'}>
                                                 <Text CatDroptext={'My Account'} />
                                             </li>
-                                            <li className={'px-5 py-1 bg-white text-menuTextHov hover:bg-black hover:text-white'}>
+                                            <li className={'px-5 py-2 bg-white text-menuTextHov hover:bg-black hover:text-white'}>
                                                 <Text CatDroptext={'Log Out'} />
-                                            </li> */}
-                                            <li className='font-dm text-sm px-5 py-2 bg-white text-menuTextHov hover:bg-black hover:text-white'>My Account</li>
-                                            <li className='font-dm text-sm px-5 py-2 bg-white text-menuTextHov hover:bg-black hover:text-white'>Log Out</li>
+                                            </li>
                                         </ul>
                                     </div>
                                     <FaShoppingCart />

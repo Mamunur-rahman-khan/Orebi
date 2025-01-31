@@ -15,7 +15,9 @@ const Header = () => {
                     <div className={'container'}>
                         <Flex>
                             <div className="w-logoW">
-                                <Image imgSrc={Logo} />
+                                <NavLink to={'/'}>
+                                    <Image imgSrc={Logo} />
+                                </NavLink>
                             </div>
                             <div className="w-menuW ml-24">
                                 <Flex>
@@ -25,10 +27,10 @@ const Header = () => {
                                     <NavLink to={'/shop'}>
                                         <Menu menuName={'Shop'} />
                                     </NavLink>
-                                    <NavLink>
+                                    <NavLink to={'/about'}>
                                         <Menu menuName={'About'} />
                                     </NavLink>
-                                    <NavLink>
+                                    <NavLink to={'/contacts'}>
                                         <Menu menuName={'Contacts'} />
                                     </NavLink>
                                     <NavLink>

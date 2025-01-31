@@ -16,6 +16,7 @@ const Shop = () => {
 
                 {/* Shop header part start */}
                 <div>
+                    {/* <h2 className={'font-dm font-bold text-menuTextHov text-[49px]'}>Products</h2> */}
                     <Text ShopHeading={'Products'} />
                     <Text BreadText={'Home  >  Products'} />
                 </div>
@@ -27,30 +28,30 @@ const Shop = () => {
                     <div className="w-3/12 pt-24">
                         <div>
                             <Text SProdCatHeading={'Shop by Category'} />
-                            <ul>
-                                <li className={'border-b-2'}>
+                            <ul className='py-5'>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'Category 1'} />
-                                        <FaPlus className={'ml-[265px]'} />
+                                        <FaPlus className={'ml-[265px] text-menuText text-xs'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'Category 2'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'Category 3'} />
-                                        <FaPlus className={'ml-[260px]'} />
+                                        <FaPlus className={'ml-[260px] text-menuText text-xs'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'Category 4'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'Category 5'} />
                                     </Flex>
@@ -58,36 +59,36 @@ const Shop = () => {
                             </ul>
                         </div>
                         <div className={'mt-10'}>
-                            <Flex className={'items-center'}>
+                            <Flex className={'items-center py-5'}>
                                 <Text SProdCatHeading={'Shop by Color'} />
                                 <FaCaretUp className={'ml-[209px]'} />
                             </Flex>
                             <ul>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <FaCircle className='text-xs mr-3' />
                                         <Text className={''} ProdCatText={'Color 1'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <FaCircle className='text-xs mr-3 text-[#FF8686]' />
                                         <Text className={''} ProdCatText={'Color 2'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <FaCircle className='text-xs mr-3 text-[#7ED321]' />
                                         <Text className={''} ProdCatText={'Color 3'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <FaCircle className='text-xs mr-3 text-[#B6B6B6]' />
                                         <Text className={''} ProdCatText={'Color 4'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <FaCircle className='text-xs mr-3 text-[#15CBA5]' />
                                         <Text className={''} ProdCatText={'Color 5'} />
@@ -96,32 +97,32 @@ const Shop = () => {
                             </ul>
                         </div>
                         <div className={'mt-10'}>
-                            <Flex className={'items-center'}>
+                            <Flex className={'items-center py-5'}>
                                 <Text SProdCatHeading={'Shop by Brand'} />
                                 <FaCaretUp className={'ml-[203px]'} />
                             </Flex>
                             <ul>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'Brand 1'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'Brand 2'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'Brand 3'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'Brand 4'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'Brand 5'} />
                                     </Flex>
@@ -130,28 +131,28 @@ const Shop = () => {
                         </div>
                         <div className={'mt-10'}>
                             <Text SProdCatHeading={'Shop by Price'} />
-                            <ul>
-                                <li className={'border-b-2'}>
+                            <ul className='py-5'>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'$0.00 - $9.99'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'$10.00 - $19.99'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'$20.00 - $29.99'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'$30.00 - $39.99'} />
                                     </Flex>
                                 </li>
-                                <li className={'border-b-2'}>
+                                <li className={'border-b py-5'}>
                                     <Flex className={'items-center'}>
                                         <Text className={''} ProdCatText={'$40.00 - $69.99'} />
                                     </Flex>
@@ -172,7 +173,7 @@ const Shop = () => {
                                     </Flex>
                                 </div>
                                 <div className={'ml-[440px]'}>
-                                    <Flex className={'items-center gap-x-[7px]'}>
+                                    <Flex className={'items-center gap-x-[6px]'}>
                                         <Text ShopPHeader={'Sort by:'} />
                                         <select name="product" id="product" className={'font-dm border text-base text-menuText px-10'}>
                                             <option value="featured">Featured</option>
