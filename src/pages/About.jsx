@@ -7,6 +7,7 @@ import Image from '../components/Image'
 // Images
 import Prod1 from '../assets/aboutImg1.png'
 import Prod2 from '../assets/aboutImg2.png'
+import { Link } from 'react-router-dom'
 
 const About = () => {
     return (
@@ -17,15 +18,28 @@ const About = () => {
                     {/* About page header part start */}
                     <div>
                         <Text ShopHeading={'About'} />
-                        <Text BreadText={'Home  >  About'} />
+                        {/* <Text BreadText={'Home  >  About'} /> */}
+                        <Flex className={'gap-x-[1px]'}>
+                            <Link to={'/'}>
+                                <Text BreadText={'Home'} />
+                            </Link>
+                            <Text BreadText={'>'} />
+                            <Link to={'/about'}>
+                                <Text BreadText={'About'} />
+                            </Link>
+                        </Flex>
                     </div>
                     {/* About page header part end */}
 
                     {/* About page image part start */}
                     <div className='mt-32'>
                         <Flex className={'gap-x-8'}>
-                            <Image imgSrc={Prod1} imgAlt={'About Image1'} className={'w-[700px] h-[696px]'} />
-                            <Image imgSrc={Prod2} imgAlt={'About Image2'} className={'w-[700px] h-[696px]'} />
+                            <Link to={'/about'}>
+                                <Image imgSrc={Prod1} imgAlt={'About Image1'} className={'w-[700px] h-[696px]'} />
+                            </Link>
+                            <Link to={'/about'}>
+                                <Image imgSrc={Prod2} imgAlt={'About Image2'} className={'w-[700px] h-[696px]'} />
+                            </Link>
                         </Flex>
                     </div>
                     {/* About page image part end */}
