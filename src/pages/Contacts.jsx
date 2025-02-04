@@ -19,7 +19,7 @@ const Contacts = () => {
                             <Text BreadText={'Home'} />
                         </Link>
                         <Text BreadText={'>'} />
-                        <Link to={'/Contacts'}>
+                        <Link to={'/contacts'}>
                             <Text BreadText={'Contacts'} />
                         </Link>
                     </Flex>
