@@ -5,6 +5,7 @@ import FooterText from '../components/FooterText'
 import Image from '../components/Image'
 import FootLogo from '../assets/footLogo.png'
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -13,11 +14,21 @@ const Footer = () => {
                 <Flex>
                     <div className={'w-1/12 mr-12'}>
                         <FooterText FHeading={'MENU'} />
-                        <FooterText FText={'Home'} />
-                        <FooterText FText={'Shop'} />
-                        <FooterText FText={'About'} />
-                        <FooterText FText={'Contact'} />
-                        <FooterText FText={'Journal'} />
+                        <Link to={'/'}>
+                            <FooterText FText={'Home'} />
+                        </Link>
+                        <Link to={'/shop'}>
+                            <FooterText FText={'Shop'} />
+                        </Link>
+                        <Link to={'/about'}>
+                            <FooterText FText={'About'} />
+                        </Link>
+                        <Link to={'/contacts'}>
+                            <FooterText FText={'Contact'} />
+                        </Link>
+                        <Link to={''}>
+                            <FooterText FText={'Sing In'} />
+                        </Link>
                         <div className='mt-20'>
                             <Flex className={'items-center gap-x-4'}>
                                 <FaFacebookF />
@@ -47,7 +58,9 @@ const Footer = () => {
                         <FooterText FText={'575 Crescent Ave. Quakertown, PA 18951'} />
                     </div>
                     <div className='w-1/4'>
-                        <Image imgSrc={FootLogo} />
+                        <Link to={'/'}>
+                            <Image imgSrc={FootLogo} />
+                        </Link>
                         <div className='mt-60'>
                             <p className='text-[12px] text-infoText font-dm'>2020 Orebi Minimal eCommerce Figma Template by Adveits</p>
                         </div>

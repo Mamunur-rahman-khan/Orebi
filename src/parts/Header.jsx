@@ -34,7 +34,7 @@ const Header = () => {
                                         <Menu menuName={'Contacts'} />
                                     </NavLink>
                                     <NavLink>
-                                        <Menu menuName={'Journal'} />
+                                        <Menu menuName={'Sign In'} />
                                     </NavLink>
                                 </Flex>
                             </div>

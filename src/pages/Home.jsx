@@ -4,6 +4,8 @@ import Flex from '../components/Flex'
 import Heading from '../components/Heading';
 import Product from '../components/Product';
 import Image from '../components/Image';
+import { Link } from 'react-router-dom';
+import Text from '../components/Text';
 
 // Images
 import adOne from '../assets/Adone.jpg'
@@ -32,7 +34,6 @@ import NextArrow from '../components/NextArrow';
 // Icons
 import { FaTruck, FaUndoAlt } from "react-icons/fa";
 import { PiNumberTwoBold } from "react-icons/pi";
-import Text from '../components/Text';
 
 
 const Home = () => {
@@ -104,36 +105,44 @@ const Home = () => {
                     </div>
                     <Slider {...settings}>
                         <div className="w-[25%] relative group px-3">
-                            <Product
-                                title={'Basic Crew Neck Tee'}
-                                price={'$44.00'}
-                                color={'Black'}
-                                imgSrc={ProdOne}
-                            />
+                            <Link to={'/product_inside'}>
+                                <Product
+                                    title={'Basic Crew Neck Tee'}
+                                    price={'$44.00'}
+                                    color={'Black'}
+                                    imgSrc={ProdOne}
+                                />
+                            </Link>
                         </div>
                         <div className="w-[25%] relative group px-3">
-                            <Product
-                                title={'Basic Crew Neck Tee'}
-                                price={'$44.00'}
-                                color={'Black'}
-                                imgSrc={ProdTwo}
-                            />
+                            <Link to={'/product_inside'}>
+                                <Product
+                                    title={'Basic Crew Neck Tee'}
+                                    price={'$44.00'}
+                                    color={'Black'}
+                                    imgSrc={ProdTwo}
+                                />
+                            </Link>
                         </div>
                         <div className="w-[25%] relative group px-3">
-                            <Product
-                                title={'Basic Crew Neck Tee'}
-                                price={'$44.00'}
-                                color={'Black'}
-                                imgSrc={ProdThree}
-                            />
+                            <Link to={'/product_inside'}>
+                                <Product
+                                    title={'Basic Crew Neck Tee'}
+                                    price={'$44.00'}
+                                    color={'Black'}
+                                    imgSrc={ProdThree}
+                                />
+                            </Link>
                         </div>
                         <div className="w-[25%] relative group px-3">
-                            <Product
-                                title={'Basic Crew Neck Tee'}
-                                price={'$44.00'}
-                                color={'Black'}
-                                imgSrc={ProdFour}
-                            />
+                            <Link to={'/product_inside'}>
+                                <Product
+                                    title={'Basic Crew Neck Tee'}
+                                    price={'$44.00'}
+                                    color={'Black'}
+                                    imgSrc={ProdFour}
+                                />
+                            </Link>
                         </div>
                     </Slider>
                 </Container>
@@ -148,36 +157,44 @@ const Home = () => {
                     </div>
                     <Flex className={'gap-x-5'}>
                         <div className="w-[25%] relative group">
-                            <Product
-                                title={'Basic Crew Neck Tee'}
-                                price={'$44.00'}
-                                color={'Black'}
-                                imgSrc={ProdFive}
-                            />
+                            <Link to={'/product_inside'}>
+                                <Product
+                                    title={'Basic Crew Neck Tee'}
+                                    price={'$44.00'}
+                                    color={'Black'}
+                                    imgSrc={ProdFive}
+                                />
+                            </Link>
                         </div>
                         <div className="w-[25%] relative group">
-                            <Product
-                                title={'Basic Crew Neck Tee'}
-                                price={'$44.00'}
-                                color={'Black'}
-                                imgSrc={ProdSix}
-                            />
+                            <Link to={'/product_inside'}>
+                                <Product
+                                    title={'Basic Crew Neck Tee'}
+                                    price={'$44.00'}
+                                    color={'Black'}
+                                    imgSrc={ProdSix}
+                                />
+                            </Link>
                         </div>
                         <div className="w-[25%] relative group">
-                            <Product
-                                title={'Basic Crew Neck Tee'}
-                                price={'$44.00'}
-                                color={'Black'}
-                                imgSrc={ProdSeven}
-                            />
+                            <Link to={'/product_inside'}>
+                                <Product
+                                    title={'Basic Crew Neck Tee'}
+                                    price={'$44.00'}
+                                    color={'Black'}
+                                    imgSrc={ProdSeven}
+                                />
+                            </Link>
                         </div>
                         <div className="w-[25%] relative group">
-                            <Product
-                                title={'Basic Crew Neck Tee'}
-                                price={'$44.00'}
-                                color={'Black'}
-                                imgSrc={ProdEight}
-                            />
+                            <Link to={'/product_inside'}>
+                                <Product
+                                    title={'Basic Crew Neck Tee'}
+                                    price={'$44.00'}
+                                    color={'Black'}
+                                    imgSrc={ProdEight}
+                                />
+                            </Link>
                         </div>
                     </Flex>
                 </Container>
@@ -200,36 +217,44 @@ const Home = () => {
                     </div>
                     <Flex className={'gap-x-5'}>
                         <div className="w-[25%] relative group">
-                            <Product
-                                title={'Basic Crew Neck Tee'}
-                                price={'$44.00'}
-                                color={'Black'}
-                                imgSrc={ProdNine}
-                            />
+                            <Link to={'/product_inside'}>
+                                <Product
+                                    title={'Basic Crew Neck Tee'}
+                                    price={'$44.00'}
+                                    color={'Black'}
+                                    imgSrc={ProdNine}
+                                />
+                            </Link>
                         </div>
                         <div className="w-[25%] relative group">
-                            <Product
-                                title={'Basic Crew Neck Tee'}
-                                price={'$44.00'}
-                                color={'Black'}
-                                imgSrc={ProdTen}
-                            />
+                            <Link to={'/product_inside'}>
+                                <Product
+                                    title={'Basic Crew Neck Tee'}
+                                    price={'$44.00'}
+                                    color={'Black'}
+                                    imgSrc={ProdTen}
+                                />
+                            </Link>
                         </div>
                         <div className="w-[25%] relative group">
-                            <Product
-                                title={'Basic Crew Neck Tee'}
-                                price={'$44.00'}
-                                color={'Black'}
-                                imgSrc={ProdEleven}
-                            />
+                            <Link to={'/product_inside'}>
+                                <Product
+                                    title={'Basic Crew Neck Tee'}
+                                    price={'$44.00'}
+                                    color={'Black'}
+                                    imgSrc={ProdEleven}
+                                />
+                            </Link>
                         </div>
                         <div className="w-[25%] relative group">
-                            <Product
-                                title={'Basic Crew Neck Tee'}
-                                price={'$44.00'}
-                                color={'Black'}
-                                imgSrc={ProdTwelve}
-                            />
+                            <Link to={'/product_inside'}>
+                                <Product
+                                    title={'Basic Crew Neck Tee'}
+                                    price={'$44.00'}
+                                    color={'Black'}
+                                    imgSrc={ProdTwelve}
+                                />
+                            </Link>
                         </div>
                     </Flex>
                 </Container>

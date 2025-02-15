@@ -34,10 +34,10 @@ const About = () => {
                     {/* About page image part start */}
                     <div className='mt-32'>
                         <Flex className={'gap-x-8'}>
-                            <Link to={'/about'}>
+                            <Link to={'/product_inside'}>
                                 <Image imgSrc={Prod1} imgAlt={'About Image1'} className={'w-[700px] h-[696px]'} />
                             </Link>
-                            <Link to={'/about'}>
+                            <Link to={'/product_inside'}>
                                 <Image imgSrc={Prod2} imgAlt={'About Image2'} className={'w-[700px] h-[696px]'} />
                             </Link>
                         </Flex>
